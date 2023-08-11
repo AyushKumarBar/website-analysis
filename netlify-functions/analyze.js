@@ -12,7 +12,7 @@ export async function handler (event, context) {
       'Access-Control-Allow-Headers': 'Content-Type',
     };
 
-    console.log("hiii")
+    console.log("hiiid")
     const sentiment = new Sentiment();
     const analysis = sentiment.analyze(response.data);
 
