@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const BACKEND_URL = 'https://yummy-windy-slouch.glitch.me/'; // Replace with your actual backend URL
+const BACKEND_URL = 'https://yummy-windy-slouch.glitch.me'; // Replace with your actual backend URL
 
 const SentimentAnalysis = () => { 
   const [url, setUrl] = useState('');
