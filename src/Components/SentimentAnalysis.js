@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const BACKEND_URL = 'http://localhost:5000/'; // Replace with your actual backend URL
 
-const SentimentAnalysis = () => {
+const SentimentAnalysis = () => { 
   const [url, setUrl] = useState('');
   const [sentiment, setSentiment] = useState('');
   const [sentiment_score, setSentimentScore] = useState('');
