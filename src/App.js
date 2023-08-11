@@ -7,8 +7,9 @@ function App() {
 
   const analyzeSentiment = async () => {
     try {
-      const response = await axios.get(`/api/analyze?url=${encodeURIComponent(url)}`);
-      setSentimentScore(response.data.score);
+      const encodedUrl = encodeURIComponent(url);
+      const response = await axios.get(`/api/analyze?url=${encodedUrl}`);
+      setSentimentScore(response.data.analysis.score);
     } catch (error) {
       console.error('Error analyzing sentiment:', error);
     }
