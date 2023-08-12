@@ -1,9 +1,11 @@
-<head>
-    <title>URL Analyzer - React and Python Flask</title>
-</head>
-<body>
+
 
 <h1>URL Analyzer - React and Python Flask</h1>
+
+
+<img width="800" align="center" alt="image" src="https://github.com/AyushKumarBar/sentiment-analysis/assets/95698835/15330112-616a-493c-bffa-19e4fdb8643b">
+
+
 
 <h2>Table of Contents</h2>
 <ul>
@@ -57,6 +59,16 @@ npm start</code></pre>
 <pre><code>cd backend
 pip install Flask</code></pre>
 
+<ol start="4">
+    <li>Run the Python Flask backend:</li>
+</ol>
+
+<pre><code>python app.py</code></pre>
+
+<img width="867" alt="image" src="https://github.com/AyushKumarBar/sentiment-analysis/assets/95698835/44997894-e0cf-4105-ba21-aea5c0985cb2">
+
+
+
 <h2 id="usage">Usage</h2>
 
 <ol>
@@ -73,5 +85,3 @@ pip install Flask</code></pre>
 <h2 id="license">License</h2>
 
 <p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
-
-</body>
