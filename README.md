@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+<head>
+    <title>URL Analyzer - React and Python Flask</title>
+</head>
+<body>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1>URL Analyzer - React and Python Flask</h1>
 
-## Available Scripts
+<h2>Table of Contents</h2>
+<ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#prerequisites">Prerequisites</a></li>
+    <li><a href="#getting-started">Getting Started</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+</ul>
 
-In the project directory, you can run:
+<h2 id="overview">Overview</h2>
 
-### `npm start`
+<p>The URL Analyzer web application allows users to enter a URL, and it provides a simple analysis of the URL by extracting the domain and path components. The application is divided into two main parts:</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<ul>
+    <li><strong>Frontend (React)</strong>: A user-friendly interface for entering a URL and triggering the analysis.</li>
+    <li><strong>Backend (Python Flask)</strong>: A server-side application that handles the URL analysis and responds to requests from the frontend.</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h2 id="prerequisites">Prerequisites</h2>
 
-### `npm test`
+<p>Before you begin, ensure you have the following installed:</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<ul>
+    <li>Node.js and npm: <a href="https://nodejs.org/" target="_blank">Download and install Node.js</a>.</li>
+    <li>Python: <a href="https://www.python.org/downloads/" target="_blank">Download and install Python</a>.</li>
+</ul>
 
-### `npm run build`
+<h2 id="getting-started">Getting Started</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ol>
+    <li>Clone this repository to your local machine:</li>
+</ol>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<pre><code>git clone &lt;repository-url&gt;
+cd &lt;repository-directory&gt;</code></pre>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<ol start="2">
+    <li>Install frontend dependencies and start the React app:</li>
+</ol>
 
-### `npm run eject`
+<pre><code>cd frontend
+npm install
+npm start</code></pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<ol start="3">
+    <li>Install backend dependencies:</li>
+</ol>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<pre><code>cd backend
+pip install Flask</code></pre>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h2 id="usage">Usage</h2>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<ol>
+    <li>Open your web browser and go to <a href="http://localhost:3000" target="_blank">http://localhost:3000</a>.</li>
+    <li>In the URL Analyzer web app, enter a URL into the input field.</li>
+    <li>Click the "Analyze" button to trigger the analysis.</li>
+    <li>The result of the analysis, including the domain and path components of the URL, will be displayed on the page.</li>
+</ol>
 
-## Learn More
+<h2 id="contributing">Contributing</h2>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p>Contributions to this project are welcome! Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss the proposed changes.</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2 id="license">License</h2>
 
-### Code Splitting
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+</body>
