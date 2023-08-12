@@ -3,7 +3,8 @@
 <h1>URL Analyzer - React and Python Flask</h1>
 
 
-<img width="800" align="center" alt="image" src="https://github.com/AyushKumarBar/sentiment-analysis/assets/95698835/15330112-616a-493c-bffa-19e4fdb8643b">
+<img width="800" alt="image" src="https://github.com/AyushKumarBar/website-analysis/assets/95698835/b91e64c6-962b-48f4-bfd5-6d00709e9888">
+
 
 
 
@@ -65,7 +66,8 @@ pip install Flask</code></pre>
 
 <pre><code>python app.py</code></pre>
 
-<img width="867" alt="image" src="https://github.com/AyushKumarBar/sentiment-analysis/assets/95698835/44997894-e0cf-4105-ba21-aea5c0985cb2">
+![image](https://github.com/AyushKumarBar/website-analysis/assets/95698835/efe273d6-9038-4fcd-8345-e5cdda6875d9)
+
 
 
 
