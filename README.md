@@ -84,6 +84,3 @@ pip install Flask</code></pre>
 
 <p>Contributions to this project are welcome! Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss the proposed changes.</p>
 
-<h2 id="license">License</h2>
-
-<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
